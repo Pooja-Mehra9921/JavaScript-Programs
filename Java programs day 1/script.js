@@ -13,10 +13,15 @@
 
 // 1. Write a function to print your name, hobbies
 
-
-
 function NameandHobbies ({Mname, hobbies}){
 console.log(` hey My name is ${Mname}, and my hobbies are ${hobbies}`);
 }
 
 NameandHobbies({Mname:"", hobbies:"hokey, ballyball"});
+
+/*  2. Write a function to enter your you favorite avengers and concat with string 
+    Input: entered {avenger-name} from keyboard
+    Output: My favorite avenger is {avenger-name}. I am dying heart fan of {avenger-name}
+*/
+
+const Aname = prompt("My favorite avenger is ");

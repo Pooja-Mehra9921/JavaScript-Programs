@@ -1,0 +1,17 @@
+.container{
+border: 1px solid black;
+width: 9%;
+
+}
+
+.btn{
+    height: 30px;
+    width: 30px;
+    margin: 5px;}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
